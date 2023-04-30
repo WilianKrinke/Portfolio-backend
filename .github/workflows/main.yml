@@ -18,17 +18,16 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-     
+    defaults:
+      run:
+        working-directory: ./api_teste_cors
     steps:
-      
       - uses: actions/checkout@v3
         with:
             node-version: 20
       - name: Babel install
-        working-directory: ./api_teste_cors
         run: npm install -g babel-cli
       - name: Run build
-        working-directory: ./api_teste_cors
         run: npm run build
 
   deploy:
