@@ -36,5 +36,5 @@ jobs:
         run: npm install vercel -g
          
       - name: Vercel deploy
-        run: vercel --cwd ./api_teste_cors/public --token ${{ env.VERCEL_TOKEN }} --prod
+        run: vercel --cwd ./api_teste_cors --token ${{ env.VERCEL_TOKEN }} --prod
      
