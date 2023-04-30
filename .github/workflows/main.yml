@@ -16,22 +16,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./api_teste_cors
-    steps:
-      - uses: actions/checkout@v3
-        with:
-            node-version: 20
-      - name: Babel install
-        run: npm install -g babel-cli
-      - name: Run build
-        run: npm run build
-
   deploy:
-    needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -41,5 +26,5 @@ jobs:
         run: npm install vercel -g
          
       - name: Vercel deploy
-        run: vercel --cwd ./public --token ${{ env.VERCEL_TOKEN }} --prod
+        run: vercel --cwd ./api_teste-cors --token ${{ env.VERCEL_TOKEN }} --prod
      
