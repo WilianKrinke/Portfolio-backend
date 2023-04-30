@@ -12,3 +12,5 @@ app.get("/",(req, res) => {
 app.listen(443,() => {
   console.log("Hello Node")
 });
+
+module.exports = app;
