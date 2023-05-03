@@ -13,7 +13,7 @@ const corsOptionsGetDatas = {
 
 app.use(bodyParser.json())
 
-app.get("/",cors(corsOptionsGetDatas),(req, res) => {
+app.get("/",(req, res) => {
   res.send(datas)
 })
 
