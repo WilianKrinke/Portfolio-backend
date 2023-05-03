@@ -1,16 +1,25 @@
-var app = require('express')()
-const bodyParser = require('body-parser')
+import express from 'express'
+import cors from 'cors'
+import bodyParser from 'body-parser'
+import getDatas from './datas/index.js';
 
 
+const app = express();
+const datas = getDatas();
+
+const corsOptionsGetDatas = {
+  origin: "url",
+  optionsSuccessStatus: 200
+}
 
 app.use(bodyParser.json())
 
-app.get("/",(req, res) => {
-  res.send("Hello Server on")
+app.get("/datas",cors(corsOptionsGetDatas),(req, res) => {
+  res.send(datas)
 })
 
-app.listen(443,() => {
+app.listen(8080,() => {
   console.log("Hello Node")
 });
 
-module.exports = app;
+export default app;
