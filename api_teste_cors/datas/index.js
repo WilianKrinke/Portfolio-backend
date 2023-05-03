@@ -1,21 +1,16 @@
-
-import fs from 'fs'
-import { fileURLToPath } from 'url';
-import { dirname } from 'path';
+var fs = require('fs')
+// var url = require('url') 
+// var path =  require('path')
 
 function getDatas() {
-    try {
-        const __filename = fileURLToPath(import.meta.url);
-        const __dirname = dirname(__filename);
-        
+    try {        
         const jsonDatas = fs.readFileSync(`${__dirname}/datas.json`, "utf-8")
-        return jsonDatas
-        
+        return jsonDatas        
     } catch (error) {
         console.log(error)
     }
 }
 
-export default getDatas;
+module.exports = getDatas;
 
 
