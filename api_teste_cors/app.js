@@ -7,7 +7,7 @@ const app = express();
 const datas = getDatas();
 
 const corsOptionsGetDatas = {
-  origin: "",
+  origin: "http://localhost:3000/",
   optionsSuccessStatus: 200
 }
 
