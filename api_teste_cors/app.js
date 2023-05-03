@@ -1,10 +1,10 @@
 import express from 'express'
 import cors from 'cors'
 import bodyParser from 'body-parser'
-// import getDatas from './datas/index.js';
+import getDatas from './datas/index.js';
 
 const app = express();
-// const datas = getDatas();
+const datas = getDatas();
 
 const corsOptionsGetDatas = {
   origin: "url",
@@ -14,7 +14,7 @@ const corsOptionsGetDatas = {
 app.use(bodyParser.json())
 
 app.get("/",cors(corsOptionsGetDatas),(req, res) => {
-  res.send("")
+  res.send(datas)
 })
 
 app.listen(8080,() => {
