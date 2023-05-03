@@ -7,8 +7,9 @@ const app = express();
 const datas = getDatas();
 
 const corsOptionsGetDatas = {
-  origin: "http://localhost:3000/",
-  optionsSuccessStatus: 200
+  origin: "http://localhost:3000",
+  optionsSuccessStatus: 200,
+  credentials: true
 }
 
 app.use(bodyParser.json())
