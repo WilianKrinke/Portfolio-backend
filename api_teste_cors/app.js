@@ -3,7 +3,6 @@ import cors from 'cors'
 import bodyParser from 'body-parser'
 import getDatas from './datas/index.js';
 
-
 const app = express();
 const datas = getDatas();
 
@@ -14,7 +13,7 @@ const corsOptionsGetDatas = {
 
 app.use(bodyParser.json())
 
-app.get("/datas",cors(corsOptionsGetDatas),(req, res) => {
+app.get("/",cors(corsOptionsGetDatas),(req, res) => {
   res.send(datas)
 })
 
