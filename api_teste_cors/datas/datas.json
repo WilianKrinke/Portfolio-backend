@@ -1,42 +1,272 @@
-{
-    "squadName": "Super hero squad",
-    "homeTown": "Metro City",
-    "formed": 2016,
-    "secretBase": "Super tower",
-    "active": true,
-    "members": [
+[
+  {
+    "_id": "6453296a669d748fd52161c7",
+    "index": 0,
+    "guid": "b2893a19-a886-49e6-a547-9319b57bb704",
+    "isActive": false,
+    "balance": "$1,738.78",
+    "picture": "http://placehold.it/32x32",
+    "age": 27,
+    "eyeColor": "blue",
+    "name": "Elisabeth Benson",
+    "gender": "female",
+    "company": "HATOLOGY",
+    "email": "elisabethbenson@hatology.com",
+    "phone": "+1 (862) 543-3029",
+    "address": "669 Schweikerts Walk, Herlong, Minnesota, 3650",
+    "about": "In proident nisi sint proident minim deserunt consequat officia exercitation. Ullamco fugiat qui officia ipsum Lorem minim id qui laboris. Aliqua cillum eu exercitation culpa occaecat quis est. Voluptate aliqua sint tempor voluptate dolor ullamco consequat sint ipsum laborum qui. Non dolore sunt anim duis. Voluptate laboris sunt commodo ut. Reprehenderit quis veniam nisi laborum irure consequat proident anim sint sunt nulla minim.\r\n",
+    "registered": "2021-11-15T08:09:50 +03:00",
+    "latitude": -54.407318,
+    "longitude": 153.626763,
+    "tags": [
+      "ex",
+      "duis",
+      "magna",
+      "incididunt",
+      "est",
+      "ex",
+      "amet"
+    ],
+    "friends": [
       {
-        "name": "Molecule Man",
-        "age": 29,
-        "secretIdentity": "Dan Jukes",
-        "powers": [
-          "Radiation resistance",
-          "Turning tiny",
-          "Radiation blast"
-        ]
+        "id": 0,
+        "name": "Melisa Pace"
       },
       {
-        "name": "Madame Uppercut",
-        "age": 39,
-        "secretIdentity": "Jane Wilson",
-        "powers": [
-          "Million tonne punch",
-          "Damage resistance",
-          "Superhuman reflexes"
-        ]
+        "id": 1,
+        "name": "Romero Mclean"
       },
       {
-        "name": "Eternal Flame",
-        "age": 1000000,
-        "secretIdentity": "Unknown",
-        "powers": [
-          "Immortality",
-          "Heat Immunity",
-          "Inferno",
-          "Teleportation",
-          "Interdimensional travel"
-        ]
+        "id": 2,
+        "name": "Delacruz Shepard"
       }
-    ]
+    ],
+    "greeting": "Hello, Elisabeth Benson! You have 4 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "6453296af4968bdf84a3f544",
+    "index": 1,
+    "guid": "ae3ba65a-6f6c-4193-a39f-56846aca169c",
+    "isActive": true,
+    "balance": "$3,508.15",
+    "picture": "http://placehold.it/32x32",
+    "age": 38,
+    "eyeColor": "blue",
+    "name": "Shaffer Morales",
+    "gender": "male",
+    "company": "TUBESYS",
+    "email": "shaffermorales@tubesys.com",
+    "phone": "+1 (835) 504-2807",
+    "address": "443 Boerum Street, Fairhaven, Wisconsin, 7939",
+    "about": "Et culpa ut fugiat in quis anim. Elit non laboris enim veniam dolor eu nulla exercitation deserunt. Qui consequat deserunt ipsum laborum occaecat dolor excepteur in anim eu excepteur aute.\r\n",
+    "registered": "2017-06-13T09:55:47 +03:00",
+    "latitude": -24.585319,
+    "longitude": 83.356392,
+    "tags": [
+      "pariatur",
+      "aute",
+      "culpa",
+      "sunt",
+      "officia",
+      "veniam",
+      "deserunt"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Shari Quinn"
+      },
+      {
+        "id": 1,
+        "name": "Fulton Cline"
+      },
+      {
+        "id": 2,
+        "name": "Therese Turner"
+      }
+    ],
+    "greeting": "Hello, Shaffer Morales! You have 1 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "6453296a29730fe314766601",
+    "index": 2,
+    "guid": "9eb24e9e-1a43-4de1-8f10-38873f012ed3",
+    "isActive": false,
+    "balance": "$3,183.13",
+    "picture": "http://placehold.it/32x32",
+    "age": 39,
+    "eyeColor": "brown",
+    "name": "Allison Miller",
+    "gender": "male",
+    "company": "LYRICHORD",
+    "email": "allisonmiller@lyrichord.com",
+    "phone": "+1 (858) 405-3838",
+    "address": "775 Varanda Place, Leland, North Carolina, 7627",
+    "about": "Irure cupidatat ullamco qui mollit duis. Aute tempor sit ut quis veniam incididunt duis aliqua aliqua nulla exercitation. Mollit consectetur eiusmod cillum velit ad ullamco qui Lorem in.\r\n",
+    "registered": "2019-01-21T02:38:11 +02:00",
+    "latitude": 47.531636,
+    "longitude": -101.341561,
+    "tags": [
+      "esse",
+      "velit",
+      "incididunt",
+      "qui",
+      "Lorem",
+      "eiusmod",
+      "commodo"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Chris Logan"
+      },
+      {
+        "id": 1,
+        "name": "Misty Berger"
+      },
+      {
+        "id": 2,
+        "name": "Gardner Medina"
+      }
+    ],
+    "greeting": "Hello, Allison Miller! You have 7 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "6453296affcd0d5784721fac",
+    "index": 3,
+    "guid": "6ba55a79-c26e-40ed-aea6-320fa671a9dd",
+    "isActive": false,
+    "balance": "$1,308.43",
+    "picture": "http://placehold.it/32x32",
+    "age": 31,
+    "eyeColor": "blue",
+    "name": "Lamb Hutchinson",
+    "gender": "male",
+    "company": "CANDECOR",
+    "email": "lambhutchinson@candecor.com",
+    "phone": "+1 (975) 450-3735",
+    "address": "183 Stillwell Avenue, Comptche, Florida, 3580",
+    "about": "Cillum ut eiusmod id qui nisi aliqua officia id excepteur fugiat sint in do. Commodo officia laboris ullamco in culpa laborum. Qui nostrud minim laborum magna qui cillum. Anim eu Lorem veniam eiusmod. Nostrud exercitation consectetur id ipsum occaecat do ut. Id enim exercitation cupidatat commodo et enim cillum proident velit esse dolor ad ullamco. Fugiat consectetur voluptate veniam adipisicing pariatur nisi officia sint ea.\r\n",
+    "registered": "2018-11-18T08:21:24 +02:00",
+    "latitude": -48.516829,
+    "longitude": 46.133657,
+    "tags": [
+      "cillum",
+      "et",
+      "laboris",
+      "excepteur",
+      "sint",
+      "officia",
+      "minim"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Bonnie Crawford"
+      },
+      {
+        "id": 1,
+        "name": "Heath Shepherd"
+      },
+      {
+        "id": 2,
+        "name": "Parrish Acosta"
+      }
+    ],
+    "greeting": "Hello, Lamb Hutchinson! You have 3 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "6453296a048eba493f4c2a53",
+    "index": 4,
+    "guid": "0fcd3fb0-074b-4c7e-ab90-0dc2938ee71d",
+    "isActive": true,
+    "balance": "$2,176.11",
+    "picture": "http://placehold.it/32x32",
+    "age": 40,
+    "eyeColor": "brown",
+    "name": "Owens Waters",
+    "gender": "male",
+    "company": "ESCHOIR",
+    "email": "owenswaters@eschoir.com",
+    "phone": "+1 (972) 435-3316",
+    "address": "773 Etna Street, Marne, North Dakota, 6489",
+    "about": "Id labore laboris elit elit nostrud duis cillum. Cupidatat laborum fugiat aliquip voluptate. Fugiat nulla consectetur do ullamco aute adipisicing esse ex. Exercitation ullamco nostrud ea commodo nulla ad voluptate eiusmod. Duis velit id fugiat est est veniam velit magna deserunt ad. Velit do amet veniam id officia in.\r\n",
+    "registered": "2017-09-25T02:56:38 +03:00",
+    "latitude": 9.363021,
+    "longitude": -106.066052,
+    "tags": [
+      "elit",
+      "qui",
+      "anim",
+      "minim",
+      "sunt",
+      "esse",
+      "est"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Valarie James"
+      },
+      {
+        "id": 1,
+        "name": "Laurie Hays"
+      },
+      {
+        "id": 2,
+        "name": "Rae Burris"
+      }
+    ],
+    "greeting": "Hello, Owens Waters! You have 6 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "6453296ad5eea8dfdfe8a030",
+    "index": 5,
+    "guid": "523ed1af-f9cb-4376-874b-1b757a53e451",
+    "isActive": true,
+    "balance": "$3,875.33",
+    "picture": "http://placehold.it/32x32",
+    "age": 26,
+    "eyeColor": "brown",
+    "name": "Adriana Dejesus",
+    "gender": "female",
+    "company": "GEOFORM",
+    "email": "adrianadejesus@geoform.com",
+    "phone": "+1 (805) 422-3726",
+    "address": "199 Malta Street, Brambleton, Oklahoma, 6335",
+    "about": "Incididunt ut magna magna labore velit reprehenderit pariatur. Cillum nostrud ipsum id cupidatat ullamco culpa mollit ut aliquip occaecat. Consequat Lorem elit incididunt pariatur ad sint eiusmod. Aliquip non do non eu sunt ex laboris. Ipsum mollit officia voluptate magna nulla ad.\r\n",
+    "registered": "2014-12-17T10:10:55 +02:00",
+    "latitude": 51.760815,
+    "longitude": -169.247054,
+    "tags": [
+      "Lorem",
+      "aliqua",
+      "aute",
+      "aute",
+      "incididunt",
+      "culpa",
+      "id"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Rosa Jensen"
+      },
+      {
+        "id": 1,
+        "name": "Lopez Gomez"
+      },
+      {
+        "id": 2,
+        "name": "Maryellen Cain"
+      }
+    ],
+    "greeting": "Hello, Adriana Dejesus! You have 3 unread messages.",
+    "favoriteFruit": "strawberry"
   }
-  
+]
