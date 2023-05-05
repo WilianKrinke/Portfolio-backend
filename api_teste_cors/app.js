@@ -21,6 +21,7 @@ var corsOptions = {
 app.use(bodyParser.json())
 
 app.get("/",cors(corsOptions),(req, res) => {
+  console.log(`Request Origin: ${req.headers.origin}`)
   res.send(datas)
 })
 
